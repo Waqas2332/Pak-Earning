@@ -1,18 +1,30 @@
 /* Importing font */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Exo&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
 header {
-  background-image: url("./assets/background_image.png");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("./assets/background_image.png");
   background-size: cover;
   font-family: "Exo", sans-serif;
+  padding-bottom: 10rem;
 }
 /* Navbar designing */
+.nav-section{
+  background: rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.navbar-toggler{
+  position: relative;
+  bottom:0.5rem;
+}
 .logo {
   position: relative;
-  bottom: 0.4rem;
+  bottom: 0.6rem;
 }
 nav ul li a {
   font-weight: 400;
@@ -36,5 +48,33 @@ nav ul li a i {
   text-align: center;
   height: 45px;
   background: #cca354;
+  border-radius: 5px;
+}
+
+@media (min-width:992px) {
+  .nav-section{
+    height: 15vh;
+  }
+}
+/* Hero section */
+.hero-section {
+  margin-top: 10rem;
+}
+.hero-section h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 60px;
+}
+.brand-name {
+  color: #cca354;
+}
+.hero-section p {
+  font-size: 18px;
+  line-height: 31px;
+}
+.hero-section button {
+  width: 129.17px;
+  height: 51.19px;
+  background: #cca354;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
 }
