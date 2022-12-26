@@ -1,0 +1,40 @@
+/* Importing font */
+@import url("https://fonts.googleapis.com/css2?family=Exo&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-image: url("./assets/background_image.png");
+  background-size: cover;
+  font-family: "Exo", sans-serif;
+}
+/* Navbar designing */
+.logo {
+  position: relative;
+  bottom: 0.4rem;
+}
+nav ul li a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+}
+#dropdown {
+  width: 116px;
+  height: 46px;
+  padding-left: 1rem;
+  border: 1px solid rgba(204, 163, 84, 0.45);
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.05));
+  border-radius: 4px;
+}
+nav ul li a i {
+  font-size: 20px;
+  position: relative;
+  bottom: 0.4rem;
+  width: 47px;
+  padding-top: 0.7rem;
+  text-align: center;
+  height: 45px;
+  background: #cca354;
+  border-radius: 5px;
+}
