@@ -13,14 +13,14 @@ header {
   padding-bottom: 10rem;
 }
 /* Navbar designing */
-.nav-section{
+.nav-section {
   background: rgba(0, 0, 0, 0.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 
-.navbar-toggler{
+.navbar-toggler {
   position: relative;
-  bottom:0.5rem;
+  bottom: 0.5rem;
 }
 .logo {
   position: relative;
@@ -51,8 +51,8 @@ nav ul li a i {
   border-radius: 5px;
 }
 
-@media (min-width:992px) {
-  .nav-section{
+@media (min-width: 992px) {
+  .nav-section {
     height: 15vh;
   }
 }
@@ -77,4 +77,71 @@ nav ul li a i {
   background: #cca354;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
+}
+/* About Section Styling */
+.about-section {
+  background: url("./assets/About.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 130px;
+  padding-bottom: 110px;
+  display: flex;
+}
+.about-section div{
+  width: 50%;
+}
+.about-div{
+  display: flex;
+  flex-direction: column;
+}
+.about-div div{
+  align-self: flex-start;
+}
+.about-div h3 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 44px;
+  line-height: 57px;
+}
+.about-div h3 span {
+  color: #cca354;
+}
+.about-div button {
+  width: 140.28px;
+  font-family: "Josefin Sans";
+  margin-top: 20px;
+  height: 51.19px;
+  background: #cca354;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+.about-div p {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+@media (max-width: 992px) {
+  .null{
+    display: none;
+  }
+  .about-section{
+    background-position: left;
+  }
+  .about-div{
+    display: block;
+  }
+}
+@media (max-width: 830px) {
+  
+  .about-section{
+    background-position: left;
+  }
+  .about-section div{
+    width: 90%;
+  }
 }
