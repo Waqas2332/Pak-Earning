@@ -88,14 +88,14 @@ nav ul li a i {
   padding-bottom: 110px;
   display: flex;
 }
-.about-section div{
+.about-section div {
   width: 50%;
 }
-.about-div{
+.about-div {
   display: flex;
   flex-direction: column;
 }
-.about-div div{
+.about-div div {
   align-self: flex-start;
 }
 .about-div h3 {
@@ -126,22 +126,109 @@ nav ul li a i {
 }
 
 @media (max-width: 992px) {
-  .null{
+  .null {
     display: none;
   }
-  .about-section{
+  .about-section {
     background-position: left;
   }
-  .about-div{
+  .about-div {
     display: block;
   }
 }
 @media (max-width: 830px) {
-  
-  .about-section{
+  .about-section {
     background-position: left;
   }
-  .about-section div{
+  .about-section div {
     width: 90%;
+  }
+}
+/* Investment Plan Section */
+.plan-section {
+  background-color: #101113;
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+}
+.plan-section h2 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 44px;
+  line-height: 57px;
+}
+.plan-section h2 span {
+  color: #cca354;
+}
+.plan-section p {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+}
+.card-div {
+  background-image: url("./assets/card.png");
+  background-position: center;
+  border: 3px solid #cca354;
+  box-shadow: 0px 5px 15px rgba(204, 163, 84, 0.5);
+  border-radius: 8px;
+  width: 310px;
+  padding-bottom: 20px;
+}
+.card-title {
+  margin-top:40px;
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 32px;
+  line-height: 42px;
+  color: #cca354;
+}
+.card-list ul {
+  margin-top: 1.5rem;
+  width: 235px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-list ul li {
+  padding: 9px 44.9688px 11.1875px 45.0312px;
+  width: 244px;
+  height: 48.19px;
+  border-bottom: 1px solid rgba(204, 163, 84, 0.35);
+  font-family: "Exo";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 27px;
+  color: #ffffff;
+}
+.card-price {
+  margin-top: 2rem;
+  font-family: "Exo";
+  line-height: 41px;
+  color: #cca354;
+}
+.card-btn {
+  margin-left: 65px;
+  border: none;
+  background: #cca354;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  width: 140.86px;
+  height: 43.19px;
+}
+
+@media (max-width:1330px){
+  .card-div{
+    width: 275px;
+  }
+}
+
+@media (max-width:992px){
+  .card-div{
+    width: 310px;
   }
 }
