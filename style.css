@@ -313,7 +313,7 @@ nav ul li a i {
   width: 100%;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 .working-card {
@@ -345,7 +345,68 @@ nav ul li a i {
   color: #cca354;
 }
 @media (max-width: 768px) {
-.working-card-div{
-  display: block;
-}  
+  .working-card-div {
+    display: block;
+  }
+}
+/* Transaction Section */
+.transaction-section {
+  background-color: #101113;
+  padding-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 7rem;
+}
+.transaction-section p {
+  font-family: "Exo";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+}
+.trans-button-div {
+  margin-top: 3rem;
+  width: 350px;
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+}
+.trans-button-div button:nth-child(1) {
+  width: 134.06px;
+  height: 41.8px;
+  background: #cca354;
+  border: 1px solid #cca354;
+  border-radius: 3px;
+}
+.trans-button-div button:nth-child(2) {
+  width: 148.52px;
+  height: 41.8px;
+  background: none;
+  border: 1px solid rgba(204, 163, 84, 0.45);
+  border-radius: 3px;
+}
+table {
+  margin-top: 3rem;
+  background: #000000;
+  box-shadow: 0px 5px 5px rgba(204, 163, 84, 0.25);
+  border-radius: 10px;
+}
+thead {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  background: #cca354;
+}
+tr {
+  width: 1103.33px;
+  height: 56px;
+  border-bottom: 2px solid #cca354;
+}
+td {
+  text-align: center;
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
 }
